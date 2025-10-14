@@ -1,0 +1,23 @@
+-- Script central - Carrega todos os outros scripts automaticamente
+
+-- Lista de scripts para carregar
+local scripts = {
+    "https://raw.githubusercontent.com/Marcelo28hd/Slap-tower-1-atualizado/main/Anti%20slap",
+    "https://raw.githubusercontent.com/Marcelo28hd/Script-de-sentar-com-fixador/main/Sentar%20com%20fixador",
+    "https://raw.githubusercontent.com/Marcelo28hd/Script-flutuar-gengar/main/Flutuar%20gengar",
+    "https://raw.githubusercontent.com/Marcelo28hd/Script-de-dan-as-r6-aura/main/Dan%C3%A7as%20r6",
+    "https://raw.githubusercontent.com/Marcelo28hd/Script-hitbox-slap-muoto-rapido/main/Hitbox%20expander"
+}
+
+for _, url in ipairs(scripts) do
+    task.spawn(function()
+        local success, result = pcall(function()
+            loadstring(game:HttpGet(url))()
+        end)
+        if success then
+            print("[Central Script] Executado com sucesso:", url)
+        else
+            warn("[Central Script] Erro ao executar:", url, result)
+        end
+    end)
+end
