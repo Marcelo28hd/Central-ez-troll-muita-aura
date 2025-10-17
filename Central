@@ -7,6 +7,7 @@ local scripts = {
     "https://raw.githubusercontent.com/Marcelo28hd/Script-flutuar-gengar/main/Flutuar%20gengar", -- atualizado
     "https://raw.githubusercontent.com/Marcelo28hd/Script-de-dan-as-r6-aura/main/Dan%C3%A7as%20r6",
     "https://raw.githubusercontent.com/Marcelo28hd/Script-musicas/main/Script%20musicas",
+    "https://raw.githubusercontent.com/Marcelo28hd/Equipar-slap-automaticamente-/main/Slap", -- novo adicionado
 }
 
 for _, url in ipairs(scripts) do
