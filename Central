@@ -10,8 +10,11 @@ local scripts = {
     "https://raw.githubusercontent.com/Marcelo28hd/Equipar-slap-automaticamente-/main/Slap",  
     "https://raw.githubusercontent.com/Marcelo28hd/Spam-slap-ez-trol/main/Slap",  
 
-    -- 🔥 Excluir porta / kill / signs (sem refs)
+    -- 🔥 Excluir porta / kill / signs
     "https://raw.githubusercontent.com/Marcelo28hd/Excluir-portaa-de-tp-ez-troll-/main/Ez%20troll%20muita%20aura",
+
+    -- 🛡️ Anti Teleport (sem refs)
+    "https://raw.githubusercontent.com/Marcelo28hd/Repelir-portal-ez-troll/main/Anttp",
 }  
 
 for _, url in ipairs(scripts) do  
